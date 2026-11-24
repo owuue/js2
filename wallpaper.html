@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wallpaper</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="index.html">wallpapers</a>
+</header>
+
+<main>
+  <p id="loader" class="status">Loading…</p>
+  <div class="detail">
+    <figure id="preview" class="preview"></figure>
+    <aside id="info" class="info">
+      <dl>
+        <dt>Resolution</dt>
+        <dd id="res"></dd>
+        <dt>Author</dt>
+        <dd id="author"></dd>
+      </dl>
+      <button id="download" class="btn-download">Download</button>
+      <p id="message" class="status"></p>
+    </aside>
+  </div>
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="wallpaper.js"></script>
+</body>
+</html>

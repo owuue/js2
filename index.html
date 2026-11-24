@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wallpapers</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="index.html">wallpapers</a>
+</header>
+
+<main>
+    <h1 id="page-title">Latest wallpapers</h1>
+    <form id="search-form" class="search-form">
+        <input id="search-input" type="search" placeholder="Search wallpapers (e.g. nature, space, cyber)…" autocomplete="off">
+        <button type="submit">Search</button>
+    </form>
+    <p class="count">Showing: <label id="count">0</label></p>
+    <p id="loader" class="status">Loading…</p>
+    <section id="grid" class="grid"></section>
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
